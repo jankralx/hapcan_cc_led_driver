@@ -1,0 +1,38 @@
+# KiCad local history (auto snapshots, has its own nested git repo)
+.history/
+
+# KiCad automatic backups
+*-backups/
+
+# Lock files and autosaves
+~*.lck
+*.lck
+_autosave-*
+*-save.kicad_pcb
+*-save.kicad_sch
+
+# Backup files
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-bak
+*~
+
+# Caches and per-user project state
+fp-info-cache
+*.kicad_prl
+
+# Temporary / misc outputs
+\#auto_saved_files#
+*.tmp
+*.log
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Zipped fab package (duplicates GerberOutputs/)
+kicad/*/GeneratedFiles/*.zip
